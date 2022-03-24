@@ -1,0 +1,127 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color:rgb(214, 124, 124);
+	padding-top: 100px;
+	padding-left: 250px;
+}
+.main-text{
+	display: inline;
+	font-size: 70px;
+	text-transform: uppercase;
+	color: white;
+}
+a{
+	text-decoration: none;
+}
+.secondary-text{
+	display: inline;
+	font-size: 70px;
+	text-transform: uppercase;
+	color: rgb(216, 216, 216);
+	margin: 0px 50px;
+}
+.secondary-text:hover{
+	color: white;
+	transition: 0.5s;
+}
+.desc{
+	margin-top: 20px;
+	margin-bottom: 50px;
+	color: white;
+	font-size: 20px;
+	width: 750px;
+}
+.info{
+	position: relative;
+	z-index: 5;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	box-shadow: 1px 5px 20px 1px rgb(0, 0, 0);
+	width: 1200px;
+}
+.arrow1{
+	position: absolute;
+	top: 296px;
+	left: 150px;
+	background-color: rgb(185, 185, 185);
+	width: 100px;
+	height: 100px;
+}
+.arrow1::before{
+	content: '';
+	position: absolute;
+	top: 40px;
+	right:40px;
+	border-top: solid transparent 10px;
+	border-bottom: solid transparent 10px;
+	border-right: solid rgba(0, 0, 0, 0.562) 10px;
+}
+.arrow2{
+	position: absolute;
+	top: 296px;
+	right: 370px;
+	background-color: rgb(184, 184, 184);
+	width: 100px;
+	height: 100px;
+}
+.arrow2::after{
+	content: '';
+	position: absolute;
+	top: 40px;
+	right:40px;
+	border-top: solid transparent 10px;
+	border-bottom: solid transparent 10px;
+	border-left: solid rgba(0, 0, 0, 0.562) 10px;
+}
+.arrow:hover{
+	background-color:aliceblue;
+	transition: 0.5s;
+}
+.time-box{
+	width: 400px;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.timer{
+	font-size: 40px;
+	color: rgb(214, 124, 124);
+}
+.time{
+	font-size: 50px;
+	color:white;
+}
+.box1{
+	background-color: rgb(70, 70, 70);
+}
+.box2{
+	background-color: rgb(49, 49, 49);
+}
+.box3{
+	background-color: rgb(37, 37, 37);
+}
+.button{
+	font-size: 35px;
+	position: relative;
+	top: -30px;
+	left: 20px;
+	z-index: 10;
+	text-decoration: none;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 350px;
+	height:80px;
+	border-radius: 5px;
+	background-color: black;
+}
+.button:hover{
+	margin-top: -10px;
+	transition: 0.5s;
+}
